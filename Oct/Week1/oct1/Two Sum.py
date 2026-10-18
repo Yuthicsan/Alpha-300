@@ -9,4 +9,4 @@ class Solution(object):
             else:
                 d[diff] = i
         d[diff] = i
-        
+            
