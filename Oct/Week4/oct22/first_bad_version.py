@@ -4,7 +4,7 @@ class Solution(object):
         r = n
         while l < r:
             mid = (l+r)//2
-            if isBadVersion(mid):
+            if isBadVersion(mid): # type: ignore
                 r = mid
             else:
                 l = mid+1
