@@ -18,4 +18,5 @@ class Solution:
                 l[i] = 0
                 i+=1
         k = l[-1]
-        return rev[:len(s) - k] + s
+        return rev[:len(s) - k] + s 
+    
